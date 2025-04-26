@@ -1,0 +1,1 @@
+package com.weight_tracker.app.domain.weightlog.model;
