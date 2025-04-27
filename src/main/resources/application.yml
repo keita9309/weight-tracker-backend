@@ -1,9 +1,10 @@
 spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5435/postgres
-    username: postgres
-    password: postgres
-    driver-class-name: org.postgresql.Driver
+  profiles:
+    active: dev
+
 logging:
   level:
     org.hibernate.orm.connections.pooling: WARN
+
+server:
+  port: 8080
