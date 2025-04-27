@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.notification.model;
+package com.weighttracker.app.domain.notification.model;

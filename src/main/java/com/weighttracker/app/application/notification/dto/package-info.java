@@ -1,1 +1,1 @@
-package com.weight_tracker.app.application.notification.dto;
+package com.weighttracker.app.application.notification.dto;

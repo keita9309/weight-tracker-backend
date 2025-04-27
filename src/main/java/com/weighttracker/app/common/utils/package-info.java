@@ -1,1 +1,1 @@
-package com.weight_tracker.app.common.utils;
+package com.weighttracker.app.common.utils;

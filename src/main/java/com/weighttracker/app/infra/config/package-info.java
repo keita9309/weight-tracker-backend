@@ -1,1 +1,1 @@
-package com.weight_tracker.app.infra.config;
+package com.weighttracker.app.infra.config;

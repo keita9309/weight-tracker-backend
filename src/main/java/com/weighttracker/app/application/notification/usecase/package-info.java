@@ -1,1 +1,1 @@
-package com.weight_tracker.app.application.notification.usecase;
+package com.weighttracker.app.application.notification.usecase;

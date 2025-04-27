@@ -1,1 +1,1 @@
-package com.weight_tracker.app.presentation.filter;
+package com.weighttracker.app.presentation.filter;

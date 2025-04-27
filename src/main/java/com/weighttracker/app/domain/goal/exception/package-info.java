@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.goal.exception;
+package com.weighttracker.app.domain.goal.exception;

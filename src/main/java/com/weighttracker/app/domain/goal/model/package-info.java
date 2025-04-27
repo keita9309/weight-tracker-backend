@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.goal.model;
+package com.weighttracker.app.domain.goal.model;

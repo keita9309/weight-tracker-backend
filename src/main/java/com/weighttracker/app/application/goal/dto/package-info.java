@@ -1,1 +1,1 @@
-package com.weight_tracker.app.application.goal.dto;
+package com.weighttracker.app.application.goal.dto;

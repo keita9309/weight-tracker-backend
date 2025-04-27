@@ -1,1 +1,1 @@
-package com.weight_tracker.app.presentation.api.notification;
+package com.weighttracker.app.presentation.api.notification;

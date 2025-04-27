@@ -1,1 +1,1 @@
-package com.weight_tracker.app.application.weightlog.dto;
+package com.weighttracker.app.application.weightlog.dto;

@@ -1,4 +1,4 @@
-package com.weight_tracker.app;
+package com.weighttracker.app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

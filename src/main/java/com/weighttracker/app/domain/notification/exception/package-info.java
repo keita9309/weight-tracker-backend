@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.notification.exception;
+package com.weighttracker.app.domain.notification.exception;

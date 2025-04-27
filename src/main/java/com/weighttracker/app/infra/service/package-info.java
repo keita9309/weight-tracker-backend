@@ -1,1 +1,1 @@
-package com.weight_tracker.app.infra.service;
+package com.weighttracker.app.infra.service;

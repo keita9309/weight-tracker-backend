@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.weightlog.exception;
+package com.weighttracker.app.domain.weightlog.exception;

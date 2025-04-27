@@ -1,1 +1,1 @@
-package com.weight_tracker.app.presentation.interceptor;
+package com.weighttracker.app.presentation.interceptor;

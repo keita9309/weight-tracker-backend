@@ -1,1 +1,1 @@
-package com.weight_tracker.app.application.goal.usecase;
+package com.weighttracker.app.application.goal.usecase;

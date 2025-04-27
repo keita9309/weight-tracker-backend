@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.notification.repository;
+package com.weighttracker.app.domain.notification.repository;

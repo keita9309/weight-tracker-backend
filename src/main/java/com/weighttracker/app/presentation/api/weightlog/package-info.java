@@ -1,1 +1,1 @@
-package com.weight_tracker.app.presentation.api.weightlog;
+package com.weighttracker.app.presentation.api.weightlog;

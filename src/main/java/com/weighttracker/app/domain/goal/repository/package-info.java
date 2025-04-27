@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.goal.repository;
+package com.weighttracker.app.domain.goal.repository;

@@ -1,1 +1,1 @@
-package com.weight_tracker.app.common.constants;
+package com.weighttracker.app.common.constants;

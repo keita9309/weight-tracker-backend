@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.weightlog.repository;
+package com.weighttracker.app.domain.weightlog.repository;

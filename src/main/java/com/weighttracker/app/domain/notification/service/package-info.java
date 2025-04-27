@@ -1,1 +1,1 @@
-package com.weight_tracker.app.domain.notification.service;
+package com.weighttracker.app.domain.notification.service;
