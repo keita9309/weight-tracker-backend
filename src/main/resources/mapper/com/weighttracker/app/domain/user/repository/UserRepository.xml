@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.weighttracker.app.domain.user.repository.UserRepository">
+    <select id="findById" resultType="com.weighttracker.app.domain.user.model.User">
+        SELECT 
+            id, 
+            username, 
+            email, 
+            password_hash as passwordHash, 
+            first_name as firstName, 
+            last_name as lastName, 
+            created_at as createdAt, 
+            updated_at as updatedAt
+        FROM users
+        WHERE id = #{id}
+    </select>
+    
+    <select id="findByUsername" resultType="com.weighttracker.app.domain.user.model.User">
+        SELECT 
+            id, 
+            username, 
+            email, 
+            password_hash as passwordHash, 
+            first_name as firstName, 
+            last_name as lastName, 
+            created_at as createdAt, 
+            updated_at as updatedAt
+        FROM users
+        WHERE username = #{username}
+    </select>
+    
+    <select id="findByEmail" resultType="com.weighttracker.app.domain.user.model.User">
+        SELECT 
+            id, 
+            username, 
+            email, 
+            password_hash as passwordHash, 
+            first_name as firstName, 
+            last_name as lastName, 
+            created_at as createdAt, 
+            updated_at as updatedAt
+        FROM users
+        WHERE email = #{email}
+    </select>
+    
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO users (
+            username, 
+            email, 
+            password_hash, 
+            first_name, 
+            last_name, 
+            created_at, 
+            updated_at
+        ) VALUES (
+            #{username}, 
+            #{email}, 
+            #{passwordHash}, 
+            #{firstName}, 
+            #{lastName}, 
+            CURRENT_TIMESTAMP, 
+            CURRENT_TIMESTAMP
+        )
+    </insert>
+    
+    <update id="update">
+        UPDATE users
+        SET 
+            username = #{username},
+            email = #{email},
+            password_hash = #{passwordHash},
+            first_name = #{firstName},
+            last_name = #{lastName}
+            /* updated_atはトリガーで自動更新 */
+        WHERE id = #{id}
+    </update>
+    
+    <delete id="delete">
+        DELETE FROM users WHERE id = #{id}
+    </delete>
+</mapper>
