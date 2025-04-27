@@ -1,1 +1,0 @@
-package com.weight_tracker.app.application.user.usecase;
