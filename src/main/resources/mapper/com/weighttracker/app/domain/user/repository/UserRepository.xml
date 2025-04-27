@@ -43,25 +43,26 @@
         WHERE email = #{email}
     </select>
     
-    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
-        INSERT INTO users (
-            username, 
-            email, 
-            password_hash, 
-            first_name, 
-            last_name, 
-            created_at, 
-            updated_at
-        ) VALUES (
-            #{username}, 
-            #{email}, 
-            #{passwordHash}, 
-            #{firstName}, 
-            #{lastName}, 
-            CURRENT_TIMESTAMP, 
-            CURRENT_TIMESTAMP
-        )
-    </insert>
+    <insert id="insert" parameterType="com.weighttracker.app.domain.user.model.User" useGeneratedKeys="true" keyProperty="id">
+	    INSERT INTO users (
+	        username,
+	        email,
+	        password,
+	        first_name,
+	        last_name,
+	        created_at,
+	        updated_at
+	    )
+	    VALUES (
+	        #{username},
+	        #{email},
+	        #{password.value},
+	        #{firstName},
+	        #{lastName},
+	        #{createdAt},
+	        #{updatedAt}
+	    )
+	</insert>
     
     <update id="update">
         UPDATE users

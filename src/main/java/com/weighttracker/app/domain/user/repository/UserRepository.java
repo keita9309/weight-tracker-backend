@@ -24,7 +24,7 @@ public interface UserRepository {
     Optional<User> findByEmail(@Param("email") String email);
 
 	/** 登録処理 */
-    void insert(User user);
+    User insert(User user);
 
 	/** 更新処理 */
     void update(User user);
